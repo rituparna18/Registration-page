@@ -1,0 +1,55 @@
+/* index.css */
+
+/* App container */
+#CRUD{
+  background-color:rgb(6, 181, 6);
+  text-align: center;
+}
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Data table */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #333; /* Darken the border color */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #e3f0e9; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center;
+  }
+  
+  /* Search input */
+  .search-input {
+    width: 98%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  /* Sort button */
+  .sort-button {
+    background-color: #4CAF50; /* Green color */
+    color: #fff; /* White text color */
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    
+  }
+  
+  .sort-button:hover {
+    background-color: #45a049; /* Darken the green color on hover */
+    text-align: center;
+  }
+  
